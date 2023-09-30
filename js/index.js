@@ -1,6 +1,11 @@
 // add click listener to check weather btn that calls function run
+document.getElementById('submit-btn').addEventListener('click', handleSubmit)
 
 // run
+function handleSubmit() {
+    city = document.getElementById('cityInput').value;
+    
+}
     // get cityInput value
     // fetch city weather through api
         // https://openweathermap.org/api
